@@ -43,8 +43,8 @@ def generate_payslip():
     header_frame = ctk.CTkFrame(app)
     header_frame.pack(fill="x", padx=20, pady=10)
     
-    ctk.CTkLabel(header_frame, text="ALBERTIAN INSTITUTE OF SCIENCE AND TECHNOLOGY", font=("Arial", 20, "bold")).pack()
-    ctk.CTkLabel(header_frame, text="Kalamassery,Ernakulam", font=("Arial", 14)).pack()
+    ctk.CTkLabel(header_frame, text="SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY", font=("Arial", 20, "bold")).pack()
+    ctk.CTkLabel(header_frame, text="KORATTY,ERNAKULAM", font=("Arial", 14)).pack()
     ctk.CTkLabel(header_frame, text="Payslip for the Month", font=("Arial", 16, "bold")).pack(pady=10)
     
     # Employee Details Section
